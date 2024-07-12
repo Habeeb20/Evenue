@@ -1,0 +1,66 @@
+/* .card71U {
+  width: calc((100% / 3) - 2rem);
+  height: 19rem;
+  background-color: #f8f8f8;
+  text-decoration: none;
+}
+
+.card71U > div > img {
+  width: 10rem;
+  height: 55%;
+}
+
+.card71U > div,
+.card71U > div:last-child {
+  padding: 0.5rem 1rem;
+}
+
+.card71U h4 {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card71U > div > h4 + p {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card71U > div:last-child > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card71U .starIcon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.card71U .ratingArea {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  column-gap: 1rem;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.card71U .ratingArea > div:last-child {
+  display: flex;
+  column-gap: 0.3rem;
+} */

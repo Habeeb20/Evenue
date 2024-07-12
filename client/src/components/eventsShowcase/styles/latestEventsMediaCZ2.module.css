@@ -1,0 +1,36 @@
+.containerCZ2 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerCZ2 .header > a:hover {
+  text-decoration: underline;
+}
+
+.containerCZ2 h1 {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 0.5rem;
+}
+
+.containerCZ2 .header > a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Inter";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.containerCZ2 .contentArea {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* height: fit-content; */
+}

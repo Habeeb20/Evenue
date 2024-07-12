@@ -1,0 +1,51 @@
+.containerCBL .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerCBL h1 {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.containerCBL .contentArea a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.containerCBL .contentArea a > img:first-child {
+  width: 23rem;
+  height: 15rem;
+}
+
+.containerCBL .contentArea a > div:nth-child(3) {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.containerCBL .contentArea a > div:nth-child(3) div:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.containerCBL .contentArea > a > div {
+  padding: 0.2rem 0.5rem;
+}
+.containerCBL .header > a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Inter";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.containerCBL .header > a:hover {
+  text-decoration: underline;
+}

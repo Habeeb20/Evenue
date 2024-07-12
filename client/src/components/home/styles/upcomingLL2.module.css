@@ -1,0 +1,44 @@
+.upcomingLL2 {
+  width: fit-content;
+  margin: auto;
+}
+
+.upcomingLL2 h1 {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 1rem 0;
+}
+
+.upcomingLL2 span {
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+  background: #387ac6;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (max-width: 45rem) {
+  .upcomingLL2 {
+    width: 100%;
+    /* margin: auto; */
+  }
+  .upcomingLL2 > div {
+    width: 100%;
+  }
+  .upcomingLL2 h1 {
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 1rem 0;
+  }
+}

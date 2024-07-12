@@ -1,0 +1,19 @@
+.container8WV {
+  background: url("../../../../public/home/evenueHero.svg") no-repeat 100% 100%;
+  height: 55dvh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container8WV h2 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.8406rem;
+  width: 48.4375rem;
+  margin-left: 5rem;
+}

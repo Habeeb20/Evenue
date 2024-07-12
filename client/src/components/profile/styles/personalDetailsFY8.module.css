@@ -1,0 +1,103 @@
+@layer base;
+
+@layer base {
+  .containerFY8 button {
+    color: #ffffff;
+    background-color: #d50f3e;
+    border: none;
+    padding: 0.5rem 3rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+}
+
+.containerFY8 {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+.containerFY8 > div:first-child {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.containerFY8 > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.0625rem solid #dddddd;
+  border-bottom: 0.0625rem solid #dddddd;
+  margin-top: 2rem;
+  padding: 0.5rem 0;
+}
+
+.containerFY8 .profileList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  row-gap: 0.5rem;
+}
+
+.containerFY8 .imgIcon {
+  margin-top: 2rem;
+}
+
+.containerFY8 form {
+  margin-top: 2rem;
+}
+
+.containerFY8 input::file-selector-button {
+  border: none;
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+  color: #000000;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.containerFY8 input::file-selector-button:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+}
+
+.containerFY8 .active {
+  background-color: #d50f3e;
+}
+
+.containerFY8 .nonActive {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+.eventsListFY8 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin: 2rem 0;
+}
+
+/* search form */
+
+.containerFY8 form > section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+.containerFY8 form > section input {
+  width: 15rem;
+  height: 2rem;
+  border: 1px solid #dddddd;
+  border-radius: 0.5rem;
+}
+
+.containerFY8 form > .buttonDiv {
+  margin-top: 2rem;
+}

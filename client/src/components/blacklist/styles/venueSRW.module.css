@@ -1,0 +1,64 @@
+.containerSRW {
+  padding: 2rem;
+}
+
+.containerSRW .contentArea {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.containerSRW .contentArea > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.containerSRW .contentArea > a > img {
+  width: 18rem;
+  height: 15rem;
+}
+
+.containerSRW .contentArea > a > div:nth-child(3) {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.containerSRW .contentArea > a > div:nth-child(3) > div:last-child {
+  display: flex;
+  align-items: center;
+  /* column-gap: 1rem; */
+}
+
+.containerSRW .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerSRW h1 {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.containerSRW .header > a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Inter";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.containerSRW .header > a:hover {
+  text-decoration: underline;
+}
+
+.containerSRW .contentArea > a > div {
+  padding: 0.2rem 0.5rem;
+  /* column-gap: 1rem; */
+}

@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/*Default profile image*/
+.dp_img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}

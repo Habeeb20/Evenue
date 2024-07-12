@@ -1,0 +1,43 @@
+.container0G1 {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.container0G1 section > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container0G1 section > div a {
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+}
+
+.container0G1 section > div a > div:first-child img + p {
+  position: absolute;
+  width: fit-content;
+  color: #ffffff;
+  right: 5%;
+  top: 70%;
+  padding: 0.2rem 1rem;
+  border-radius: 0.3125rem;
+}
+
+.container0G1 section > div a > div:first-child > img {
+  width: 18rem; /*calc((100% / 3) - 2rem);*/
+  height: 15rem;
+}
+
+.container0G1 section > div a > div:nth-child(3) {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.container0G1 section > div a > div:nth-child(3) > div:last-child {
+  display: flex;
+  align-items: center;
+  /* column-gap: 1rem; */
+}

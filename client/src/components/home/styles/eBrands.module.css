@@ -1,0 +1,100 @@
+.containerHJ0 {
+  text-align: center;
+}
+
+.containerHJ0 h5 {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.list {
+  display: flex;
+  width: 100%;
+  box-shadow: 0 0.625rem 1.25rem -0.3125rem rgba(0, 0, 0, 0.125);
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.card {
+  width: fit-content;
+  height: fit-content;
+}
+
+.card img {
+  width: 15rem;
+  height: 15rem;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-15.625rem * 7));
+  }
+}
+
+.list .slide_track {
+  animation: scroll 20s linear infinite;
+  display: flex;
+  width: calc(250px * 28);
+}
+
+.list::before,
+.list::after {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: fit-content;
+  position: absolute;
+  width: 15rem;
+  z-index: 2;
+}
+
+.list::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.list::before {
+  left: 0;
+  top: 0;
+}
+
+/* .list .slide_track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+} */
+
+.list .slide {
+  height: 15rem;
+  width: 15rem;
+}
+
+.containerHJ0 p {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.containerHJ0 span {
+  color: #ff0303;
+  font-family: "Kite One", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

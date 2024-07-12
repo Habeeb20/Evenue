@@ -1,0 +1,40 @@
+.container403 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.container403 .card {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.container403 img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.container403 a {
+  background-color: #ffffff;
+  border: 2px solid #d50f3e;
+  padding: 0.5rem;
+  border-radius: 0.3125rem;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.container403 a:hover {
+  cursor: pointer;
+  background-color: #d50f3e;
+  border: #ffffff;
+  transition: 0.5s;
+  color: #ffffff;
+}

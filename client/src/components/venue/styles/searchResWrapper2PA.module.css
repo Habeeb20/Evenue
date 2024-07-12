@@ -1,0 +1,28 @@
+.container2PA {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container2PA > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.container2PA > a > img {
+  width: 18rem;
+  height: 15rem;
+}
+
+.container2PA > a > div:nth-child(3) {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.container2PA > a > div:nth-child(3) > div:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.container2PA > a > div {
+  padding: 0.2rem 0.5rem;
+}

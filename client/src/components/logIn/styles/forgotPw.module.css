@@ -1,0 +1,17 @@
+.forgotPw0 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.forgotPw0 button {
+  cursor: pointer;
+}
+
+.forgotPw0ErrMsg {
+  color: red;
+}

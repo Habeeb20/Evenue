@@ -1,0 +1,46 @@
+/* animation does not work */
+.sliderX1Y {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.sliderX1Y .slides {
+  display: flex;
+  column-gap: 2rem;
+  animation: fade 0.5s;
+}
+
+.sliderX1Y button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 0.625rem 0.9375rem;
+}
+
+.sliderX1Y button:first-child {
+  left: 0;
+}
+
+.sliderX1Y button:last-child {
+  right: 0;
+}
+
+.sliderX1Y button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

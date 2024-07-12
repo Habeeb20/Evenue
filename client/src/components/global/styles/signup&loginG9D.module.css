@@ -1,0 +1,70 @@
+.containerG9D {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerG9D .errMsg {
+  color: #ff0f3e;
+}
+
+.containerG9D form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.containerG9D div > label {
+  display: block;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.containerG9D div > input {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 0.3125rem;
+}
+
+.containerG9D button {
+  background-color: #ffffff;
+  border: 2px solid #d50f3e;
+  padding: 0.5rem;
+  border-radius: 0.3125rem;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.containerG9D button:hover {
+  cursor: pointer;
+  background-color: #d50f3e;
+  border: #ffffff;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.containerG9D .showPasswordArea {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 45rem) {
+  .containerG9D {
+    box-sizing: border-box;
+  }
+  .containerG9D form {
+    width: 80%;
+  }
+  .containerG9D div > input {
+    width: 100%;
+  }
+}

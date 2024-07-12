@@ -1,0 +1,23 @@
+.container34D {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 0 1rem;
+}
+
+.container34D > div {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+}
+
+@media screen and (max-width: 45rem) {
+  .container34D > h3 {
+    text-align: center;
+  }
+  .container34D > div {
+    flex-direction: column;
+    row-gap: 1.5rem;
+    align-items: center;
+  }
+}

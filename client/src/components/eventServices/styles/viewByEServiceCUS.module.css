@@ -1,0 +1,19 @@
+.containerCUS {
+  border: 3px solid red;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.containerCUS a {
+  width: 14rem;
+  height: 19rem;
+  border: 3px solid green;
+}
+
+.containerCUS a > div:first-child img {
+  width: 100%;
+  height: 12rem;
+}

@@ -1,0 +1,14 @@
+@layer base;
+
+@layer base {
+  .containerUS6 {
+    z-index: 100;
+    background-color: #ffff00;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    position: fixed;
+    top: 90%;
+    left: 5%;
+  }
+}

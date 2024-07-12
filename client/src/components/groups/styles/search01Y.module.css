@@ -1,0 +1,22 @@
+.form01Y input {
+  width: 30rem;
+  height: 2.5rem;
+}
+
+.form01Y button {
+  height: 2.5rem;
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+  background: #d50f3e;
+  border: none;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.form01Y button:hover {
+  cursor: pointer;
+}

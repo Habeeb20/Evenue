@@ -1,0 +1,17 @@
+.containerXJ2 {
+  display: flex;
+  align-items: center;
+}
+
+.containerXJ2 a {
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+
+.containerXJ2 button {
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  background-color: transparent;
+}

@@ -1,0 +1,35 @@
+.containerW1V {
+  background: radial-gradient(ellipse at top, #e66465, transparent),
+    radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  column-gap: 2rem;
+}
+
+.containerW1V a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0px 0px 0.3125rem 0.3125rem;
+  background-color: #d9d9d9;
+  padding: 1rem 0;
+  color: #000000;
+  font-family: "Inter";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (max-width: 45rem) {
+  .containerW1V {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    row-gap: 2rem;
+    width: 100%;
+  }
+}

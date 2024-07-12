@@ -1,0 +1,53 @@
+@layer base;
+
+@layer base {
+  p,
+  h4,
+  a {
+    font-family: "Inter", sans-serif;
+    line-height: normal;
+  }
+}
+
+.containerOO2 {
+  display: flex;
+  align-items: center;
+}
+
+.containerOO2 > div:first-of-type {
+  width: 100%;
+}
+
+.containerOO2 h4 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.containerOO2 p {
+  width: 517px;
+  flex-shrink: 0;
+  margin-bottom: 3rem;
+}
+
+.containerOO2 a {
+  background-color: #2e2e2e;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 45rem) {
+  .containerOO2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .containerOO2 p {
+    width: fit-content;
+    flex-shrink: 0;
+    margin: 3rem 0;
+  }
+  .containerOO2 > div:last-child {
+    display: none;
+  }
+}

@@ -1,0 +1,440 @@
+/* TODO: Fix the mobile x overflow issue */
+
+@layer base;
+
+@layer base {
+  .card0OV.oESFI * {
+    font-family: "Inter", sans-serif;
+  }
+  .card0OV.oESFI p {
+    font-weight: 500;
+  }
+}
+
+.card0OV {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.card0OV .imgDetailsArea {
+  display: flex;
+  height: fit-content;
+  column-gap: 2rem;
+}
+
+.card0OV .imgDetailsArea > section:nth-of-type(2) {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.card0OV.oESFI > section:nth-of-type(1) {
+  background-color: #f9f8f8;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  width: 100%;
+}
+
+.card0OV.oESFI .imgDetailsArea > section:nth-of-type(2) > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card0OV.oESFI
+  .imgDetailsArea
+  > section:nth-of-type(2)
+  > div:first-child
+  > div:first-child {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.card0OV.oESFI
+  .imgDetailsArea
+  > section:nth-of-type(2)
+  > div:first-child
+  > div:first-child
+  p {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.card0OV.oESFI
+  .imgDetailsArea
+  > section:nth-of-type(2)
+  > div:first-child
+  > div:nth-child(2)
+  p {
+  background-color: #1cc023;
+  width: fit-content;
+  padding: 0.1rem 0.5rem;
+  color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+.card0OV .imgsArea {
+  width: 100%;
+  height: fit-content;
+}
+
+.card0OV .imgsArea > div:nth-of-type(1) {
+  width: 100%;
+  height: 100%;
+}
+
+.card0OV .imgsArea > div:nth-of-type(1) img {
+  width: 100%;
+  height: 50%;
+}
+
+.card0OV .imgsArea > div:nth-of-type(2) {
+  display: flex;
+  column-gap: 1rem;
+  justify-content: flex-start;
+}
+
+.card0OV .imgsArea > div:nth-of-type(2) img {
+  width: 10rem;
+  height: 10rem;
+}
+
+/***********************************************************************/
+
+.card0OV .imgDetailsArea h2 {
+  color: #333333;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card0OV.oESFI .imgDetailsArea h1 {
+  color: #333333;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card0OV.oESFI .reviewLink {
+  border: 0.125rem solid #000000;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 0.312rem;
+}
+
+.card0OV.oESFI .reviewLink a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.card0OV.oESFI .imgDetailsArea h2 {
+  color: #333333;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card0OV h2 + p {
+  color: #038e0f;
+}
+
+.card0OV.oESFI h2 + p {
+  color: #000000;
+}
+
+.card0OV .venueAndTicket {
+  background-color: #f0eded;
+  display: flex;
+  border-radius: 0.3125rem;
+}
+
+.card0OV .venueAndTicket > div {
+  border-radius: 0.3125rem;
+  border: 0.0625rem solid #d50f3e;
+  color: #d50f3e;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: fit-content;
+}
+
+.card0OV .venueAndTicket > div,
+.card0OV .venueAndTicket p {
+  padding: 0.5rem;
+}
+
+.card0OV .dateAndTimeArea {
+  border-radius: 0.3125rem;
+  border: 1px solid #d50f3e;
+}
+
+.card0OV .dateTimeDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card0OV .dateTimeDiv:not(:last-of-type) {
+  padding: 0.5rem 1rem;
+  column-gap: 1rem;
+}
+
+.card0OV .dateTimeDiv:last-of-type > .dateTimeContent {
+  border: 1px solid #fcc3c3;
+  border-radius: 0;
+}
+
+.card0OV .dateTimeDiv:last-of-type > .dateTimeContent .dateTimeHeader {
+  background-color: #fcc3c3;
+  border-radius: 0;
+}
+
+.card0OV .dateTimeContent {
+  border-radius: 0.1875rem;
+  border: 1px solid #efefef;
+  width: 50%;
+  text-align: center;
+}
+
+.card0OV .dateTimeHeader {
+  border-radius: 0.1875rem;
+  background-color: #efefef;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card0OV .timeDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card0OV .otherDetails:last-of-type {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.card0OV .otherDetails:last-of-type div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 1rem;
+}
+
+.card0OV .cTAArea {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.card0OV.oESFI .cTAArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.card0OV .cTA {
+  border-radius: 0.3125rem;
+  background-color: #d50f3e;
+  color: #ffffff;
+  padding: 1rem 3.25rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+.card0OV .cTAArea button:not(.cTA) {
+  display: flex;
+  align-items: center;
+  border: none;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 1rem 3.25rem;
+  border-radius: 0.3125rem;
+}
+
+.card0OV .cTAArea button:hover {
+  cursor: pointer;
+}
+
+/*****************************************************************************/
+.card0OV .imgsArea2 {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+}
+
+.card0OV .imgsArea2 img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.card0OV.oESFI .imgDetailsArea > section:nth-of-type(2) > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.card0OV.oESFI .imgDetailsArea > section:nth-of-type(2) > div:nth-child(2) p {
+  display: inline;
+}
+
+.card0OV.oESFI
+  .imgDetailsArea
+  > section:nth-of-type(2)
+  > div:nth-child(2)
+  > div:first-child {
+  border: 1px solid #000000;
+  padding: 0.2rem 0.5rem;
+}
+
+.card0OV.oESFI button[name="share"] {
+  background-color: transparent;
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.card0OV.oESFI > section:nth-of-type(1) {
+  background-color: #f9f8f8;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.card0OV.oESFI > section:nth-of-type(1) > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.card0OV.oESFI > section:nth-of-type(1) > div > div {
+  display: flex;
+  column-gap: 3rem;
+}
+
+/**/
+.card0OV .venueDetailsAreas {
+  background-color: #efefef;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+}
+
+.card0OV .venueDetailsAreas .openingHours {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.card0OV .venueDetailsAreas .openingHours > div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card0OV .venueDetailsAreas .openingHours > div > div:first-child {
+  font-weight: 600;
+}
+
+.card0OV .venueDetailsAreas .venueDetails {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.card0OV .venueDetailsAreas table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-size: 0.8rem;
+  letter-spacing: 0.0625rem;
+  width: fit-content;
+}
+
+.card0OV .venueDetailsAreas th,
+td {
+  border: 0.0625rem solid rgb(160 160 160);
+  padding: 0.5rem 0.625rem;
+}
+
+.card0OV .venueDetails > div:last-child img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.card0OV .venueDetails > div:last-child p {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+@media screen and (max-width: 45rem) {
+  .card0OV.oESFI {
+    padding: 0 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .card0OV .imgDetailsArea {
+    flex-direction: column;
+  }
+  .card0OV.oESFI .imgDetailsArea {
+    flex-direction: column;
+  }
+  .card0OV .imgDetailsArea > section:nth-of-type(2) {
+    width: 100%;
+  }
+  .card0OV.oESFI .imgDetailsArea > section:nth-of-type(2) > div:first-child {
+    flex-direction: column-reverse;
+  }
+
+  .card0OV .cTAArea button:not(.cTA) {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    padding: 1rem 1.25rem;
+  }
+  .card0OV .cTA {
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+  }
+  .card0OV.oESFI .imgsArea2 {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+  }
+  .card0OV .imgsArea2 img {
+    width: 90%;
+    height: 90%;
+  }
+  .card0OV .venueDetailsAreas {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 1rem;
+  }
+}

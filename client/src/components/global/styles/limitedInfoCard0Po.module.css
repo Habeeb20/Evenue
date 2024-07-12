@@ -1,0 +1,78 @@
+.card0Po {
+  width: fit-content;
+  height: 19rem;
+  background-color: #f8f8f8;
+}
+
+.card0Po > img {
+  width: 20rem;
+  height: 55%;
+}
+
+.card0Po > div,
+.card0Po > div:last-child {
+  padding: 0.5rem 1rem;
+}
+
+.card0Po h4 {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card0Po > div > h4 + p {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card0Po > div > p + div,
+.card0Po > div:last-child > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card0Po > div:last-child > div {
+  text-align: center;
+}
+
+.card0Po > div:last-child > div p {
+  border-radius: 0.3125rem 0px 0px 0.3125rem;
+  border: 1px solid #d50f3e;
+  width: 50%;
+  color: #d50f3e;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card0Po > div:last-child > div a {
+  border-radius: 0px 0.3125rem 0.3125rem 0px;
+  background-color: #616161;
+  width: 50%;
+  text-decoration: none;
+  color: #efefef;
+  font-family: "Inter";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: 1px solid #616161;
+}

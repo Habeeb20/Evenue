@@ -1,0 +1,17 @@
+.containerKLZ {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.containerKLZ span,
+.containerKLZ div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.containerKLZ img {
+  width: 1.5rem;
+  height: 1.5rem;
+}

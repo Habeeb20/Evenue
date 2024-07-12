@@ -1,0 +1,38 @@
+.cardX38 {
+  width: calc((100% / 4) - 2rem);
+  height: 19rem;
+  background-color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem #00000040;
+}
+
+.cardX38 > div:first-of-type {
+  width: 100%;
+  height: 55%;
+}
+
+.cardX38 > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardX38 > section {
+  padding: 0.5rem 1rem;
+}
+
+.cardX38 > section > div:last-of-type {
+  margin-bottom: 1rem;
+}
+
+.cardX38 span {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.cardX38 a {
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  color: #000000;
+}

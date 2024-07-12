@@ -1,0 +1,14 @@
+.formCT6 {
+  margin: 1rem;
+  width: 100%;
+}
+
+.formCT6 input {
+  width: 80%;
+  height: 2.2rem;
+}
+
+.formCT6 button {
+  height: 2.2rem;
+  cursor: pointer;
+}

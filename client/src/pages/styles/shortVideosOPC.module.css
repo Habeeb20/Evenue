@@ -1,0 +1,24 @@
+.containerOPC {
+  margin: 2rem 1rem;
+}
+
+.containerOPC > div:first-child > button {
+  border: 1px solid #d50f3e;
+  background-color: #d50f3e;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+.containerOPC .vidsArea {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.containerOPC > div:first-child > button + p {
+  color: #d50f3e;
+}

@@ -1,0 +1,59 @@
+@layer container3J8Base;
+
+@layer container3J8Base {
+  .container3J8 p,
+  .container3J8 h3 {
+    color: #f7f2f2;
+    text-align: center;
+  }
+}
+
+.container3J8 {
+  background: linear-gradient(
+      181deg,
+      rgba(0, 0, 0, 0.87) -52.9%,
+      rgba(0, 0, 0, 0) 197.52%
+    ),
+    url("../../../../public//home/Rectangle\ 97.svg") no-repeat 100% 100%;
+  height: 55dvh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4rem;
+}
+
+.container3J8 > div {
+  width: 40%;
+  height: 100%;
+}
+
+.container3J8 > div:first-child {
+  /* border: 1px solid #fff; */
+  background: linear-gradient(
+    43deg,
+    rgba(217, 217, 217, 0) 0.68%,
+    rgba(217, 217, 217, 0.38) 110.74%,
+    #d9d9d9 110.74%
+  );
+  backdrop-filter: blur(28px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.container3J8 span {
+  color: #394293;
+}
+
+.container3J8 h3 {
+  width: 80%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.container3J8 p {
+  width: 90%;
+}

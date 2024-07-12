@@ -1,0 +1,63 @@
+@layer base;
+
+@layer base {
+  .containerBI1,
+  .containerBI1 section:not(section.flexWrapper) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .containerBI1 label {
+    display: block;
+  }
+  .containerBI1 .flexWrapper > div {
+    width: 100%;
+  }
+
+  .containerBI1 input:not(input[type="file"], input[value="cancel"]) {
+    border: 0.0625rem solid #dddddd;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+
+  .containerBI1 .flexWrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+  }
+}
+
+.containerBI1 .ctaArea {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 2rem;
+}
+
+.containerBI1 input[value="Cancel"],
+.containerBI1 button {
+  width: fit-content;
+}
+
+.containerBI1 input[value="Cancel"] {
+  padding: 0.5rem 1rem;
+  border: 0.125rem solid #d50f3e;
+  color: #d50f3e;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.containerBI1 .header {
+  padding: 0.5rem 0;
+  border-top: 0.0625rem solid #dddddd;
+  border-bottom: 0.0625rem solid #dddddd;
+}
+
+.containerBI1 .quillArea {
+  height: 20rem;
+}
+
+.containerBI1 .quill {
+  height: 15rem;
+}

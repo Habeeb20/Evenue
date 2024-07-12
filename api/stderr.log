@@ -1,0 +1,100 @@
+Error: Unknown column 'is_admin' in 'where clause'
+    at Packet.asError (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at Prepare.execute (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'is_admin' in 'where clause'",
+  sql: "SELECT * FROM users WHERE user_id = ? AND is_admin = '1'"
+}
+Error: Unknown column 'is_admin' in 'where clause'
+    at Packet.asError (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at Prepare.execute (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'is_admin' in 'where clause'",
+  sql: "SELECT * FROM users WHERE user_id = ? AND is_admin = '1'"
+}
+Error decoding token: JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/jsonwebtoken/verify.js:70:17)
+    at getUserIDAndToken (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/users/getUserIdFromToken.js:14:51)
+    at /home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:48:52
+    at step (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:33:23)
+    at Object.next (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:14:53)
+    at /home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:4:12)
+    at checkIsAdmin (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:45:49)
+    at Layer.handle [as handle_request] (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/express/lib/router/layer.js:95:5)
+Error decoding token: JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/jsonwebtoken/verify.js:70:17)
+    at getUserIDAndToken (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/users/getUserIdFromToken.js:14:51)
+    at /home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:48:52
+    at step (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:33:23)
+    at Object.next (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:14:53)
+    at /home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:4:12)
+    at checkIsAdmin (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:45:49)
+    at Layer.handle [as handle_request] (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/express/lib/router/layer.js:95:5)
+Error decoding token: JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/jsonwebtoken/verify.js:70:17)
+    at getUserIDAndToken (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/users/getUserIdFromToken.js:14:51)
+    at /home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:48:52
+    at step (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:33:23)
+    at Object.next (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:14:53)
+    at /home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:4:12)
+    at checkIsAdmin (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:45:49)
+    at Layer.handle [as handle_request] (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/express/lib/router/layer.js:95:5)
+Error decoding token: JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/jsonwebtoken/verify.js:70:17)
+    at getUserIDAndToken (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/users/getUserIdFromToken.js:14:51)
+    at /home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:48:52
+    at step (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:33:23)
+    at Object.next (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:14:53)
+    at /home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:4:12)
+    at checkIsAdmin (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:45:49)
+    at Layer.handle [as handle_request] (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/express/lib/router/layer.js:95:5)
+Error decoding token: JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/jsonwebtoken/verify.js:70:17)
+    at getUserIDAndToken (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/users/getUserIdFromToken.js:14:51)
+    at /home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:48:52
+    at step (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:33:23)
+    at Object.next (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:14:53)
+    at /home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:4:12)
+    at checkIsAdmin (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:45:49)
+    at Layer.handle [as handle_request] (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/express/lib/router/layer.js:95:5)
+Error decoding token: JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/jsonwebtoken/verify.js:70:17)
+    at getUserIDAndToken (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/users/getUserIdFromToken.js:14:51)
+    at /home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:48:52
+    at step (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:33:23)
+    at Object.next (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:14:53)
+    at /home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:4:12)
+    at checkIsAdmin (/home/ooshvofe/e-venues.ooshinfo.com/ES5-compiled-evenue-back/controllers/admin/checkIsAdmin.js:45:49)
+    at Layer.handle [as handle_request] (/home/ooshvofe/nodevenv/e-venues.ooshinfo.com/ES5-compiled-evenue-back/20/lib/node_modules/express/lib/router/layer.js:95:5)

@@ -1,0 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.msg = void 0;
+exports.msg = " \n<div style=\"background-color: #e3e1e1; margin: 1rem; min-height: fit-content; max-width: 100%; box-sizing: border-box; padding: 2rem; display: flex; justify-content: center; align-items: center\">\n<article style=\"background-color: white; max-width: 60%; padding: 1rem; font-family: Arial, sans-serif; height: fit-content\">\n  <h2 style=\"text-align: center; color: #093e82; font-family: Helvetica, sans-serif; font-weight: 900; font-size: calc(1.5rem + 2vw);\">Evenue</h2>\n  <p>Welcome to Evenue. Thank you for registering with us. Your account has been created.</p>\n  <br><br>\n  <author>The Evenue Team</author>\n  <br>\n  <br> \n  <hr />\n</article>\n</div>\n";
+//# sourceMappingURL=createUser.js.map

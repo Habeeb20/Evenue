@@ -1,0 +1,78 @@
+@layer base;
+
+@layer base {
+  .container83D * {
+    color: #000000;
+    font-family: "inter", "san-serif";
+  }
+  .container83D input:not([type="reset"]):not([type="file"]),
+  .container83D textarea,
+  .container83D select {
+    width: 100%;
+    min-height: 1.5rem;
+    background-color: #f5f5f5;
+    border: 1px solid #dcdcdc;
+  }
+  .container83D input[type="reset"],
+  .container83D button {
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.3125rem;
+    border: 1px solid transparent;
+  }
+  .container83D form label {
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.container83D,
+.container83D form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.container83D.bigContainer {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.container83D.smallContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container83D > div:first-child {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 1rem;
+}
+
+.container83D label {
+  display: block;
+}
+
+.container83D textarea {
+  resize: vertical;
+}
+
+.container83D .quillDiv {
+  height: 15rem;
+}
+
+.container83D .quill {
+  height: 13rem;
+}
+
+.container83D > form > div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 1rem;
+}
+
+.container83D button {
+  border: 1px solid #b2101a;
+  background: #b2101a;
+  color: #ffffff;
+}

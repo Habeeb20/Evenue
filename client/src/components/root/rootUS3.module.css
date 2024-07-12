@@ -1,0 +1,113 @@
+.navUS3 {
+  color: #ffffff;
+  display: flex;
+  padding: 1rem 3rem;
+}
+
+.navUS3 > div {
+  display: flex;
+  column-gap: 0.5rem;
+  /* border: 1px solid green; */
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  /* align-self: center; */
+}
+
+/* .navUS3 > div:first-child {
+  margin-right: auto;
+} */
+
+.navUS3 > div > a,
+.navAuthBtn {
+  padding: 0.5rem 0.7rem;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.navUS3 > div:last-child > a:first-child {
+  color: #d50f3e;
+  font-weight: 700;
+}
+
+.navUS3 > div:last-child > a:last-child {
+  border: 0.0625rem solid #000000;
+}
+
+.navUS3 > div > a.current {
+  border: 0.0625rem solid #000000;
+}
+
+.navUS3 .moreContent {
+  margin-right: auto;
+}
+/* Responsive nav styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  overflow: hidden;
+}
+
+header button.hideNavMobile {
+  display: none;
+}
+header button.showNavMobile {
+  display: block;
+}
+
+button {
+  width: fit-content;
+  height: fit-content;
+}
+
+@media screen and (max-width: 45rem) {
+  span {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  /* header.hideNavMobile > nav {
+    background-color: #f5f5f5;
+  } */
+  header.showNavMobile > nav {
+    background-color: #f5f5f5;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 100;
+  }
+  header.hideNavMobile > nav > div {
+    display: none;
+  }
+  header.showNavMobile > nav > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    row-gap: 1rem;
+    height: 100%;
+  }
+  .navUS3 .moreContent {
+    margin-right: 0%;
+  }
+}

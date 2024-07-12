@@ -1,0 +1,116 @@
+@layer base;
+
+@layer base {
+  .containerI21 p {
+    font-weight: 500;
+  }
+  .containerI21 section:first-of-type > div,
+  .containerI21 section:last-of-type {
+    background-color: #f0efef;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem; /* hr height probelm area */
+    border-radius: 2rem;
+  }
+  .containerI21 button {
+    border: none;
+    cursor: pointer;
+    padding: 0.625rem, 1.125rem, 0.625rem, 0.625rem;
+    border-radius: 0.3125rem;
+    font-weight: 700;
+  }
+}
+
+.containerI21 {
+  width: fit-content;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerI21 .closeBtn {
+  position: absolute;
+  right: 2%;
+  top: 5%;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.containerI21 > div {
+  background-color: #d5d5d5;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerI21 section:first-of-type {
+  width: 65%;
+}
+
+.containerI21 section:first-of-type > div {
+  min-height: 18rem;
+}
+
+.containerI21 section:last-of-type {
+  width: 30%;
+}
+
+.containerI21 section:first-of-type > div > div:not(:last-of-type) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerI21 button + span {
+  color: #7b7b7b;
+}
+
+.containerI21 span {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.containerI21 .orderSummary {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.containerI21 section:last-of-type > div:first-child {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.containerI21 section:last-of-type > div:nth-child(3),
+.containerI21 section:last-of-type > div:last-of-type {
+  display: flex;
+  row-gap: 1rem;
+  justify-content: space-between;
+}
+
+.containerI21 .virtualCard {
+  font-weight: 300;
+}
+
+.containerI21 .greyBtn {
+  background-color: #dbdbdb;
+}
+
+.containerI21 .arithmeticBtn {
+  width: 1.875rem;
+  height: 1.875rem;
+}
+
+.containerI21 .redBtn {
+  background-color: #d50f3e;
+  color: #ffffff;
+}
+
+.containerI21 .buyBtn {
+  width: 14.75rem;
+  height: 2.8125rem;
+  margin-top: 2rem;
+}

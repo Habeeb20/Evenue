@@ -1,0 +1,6 @@
+.containerY2D {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding: 3rem 0;
+}

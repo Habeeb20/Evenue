@@ -1,0 +1,52 @@
+.form9XW * {
+  color: #000000;
+  font-family: "inter", "san-serif";
+  font-weight: 600;
+}
+
+.form9XW {
+  height: fit-content;
+  margin: 10rem auto;
+  width: fit-content;
+  border: 2px solid #dddddd;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.form9XW label {
+  display: block;
+}
+
+.form9XW input::file-selector-button {
+  background-color: #81ecec;
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+  color: #000000;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.form9XW input::file-selector-button:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+}
+
+.form9XW textarea {
+  width: 100%;
+  min-height: 10rem;
+  resize: vertical;
+}
+
+.form9XW button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  background-color: #d50f3e;
+  color: #ffffff;
+}

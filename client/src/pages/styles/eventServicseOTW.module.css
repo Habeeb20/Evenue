@@ -1,0 +1,60 @@
+.containerOTW {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.containerOTW > div:nth-of-type(2) {
+  padding: 0 2rem;
+  margin-top: 2rem;
+}
+
+.containerOTW > div:nth-of-type(2) > div:first-of-type {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.containerOTW > div:nth-of-type(2) button {
+  width: 9rem;
+  height: fit-content;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.containerOTW > div:nth-of-type(2) img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  display: block;
+}
+
+.containerOTW .addServiceArea {
+  margin: 2rem 0 0 2rem;
+}
+
+.containerOTW .addServiceArea > button {
+  cursor: pointer;
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+  background: #d50f3e;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 45rem) {
+  .containerOTW > div:nth-of-type(2) > div:first-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+}
